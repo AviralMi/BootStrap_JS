@@ -1,0 +1,36 @@
+#container{
+  background-color: aqua;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}
+#nav{
+  background-color: gray;
+  padding: 10px;
+  word-spacing: 10px;
+  font-size: 1.5rem;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+span.right { float: right; }
+
+ /* Custom CSS for the vertical division */
+ .vertical-divider {
+  display: flex;
+}
+
+.left-side {
+  flex: 1;
+  padding: 20px; /* Add your desired padding */
+  background-color: #f0f0f0; /* Add your desired background color */
+}
+
+.right-side {
+  flex: 0 0 20%; /* 20% width, fixed size */
+  padding: 20px; /* Add your desired padding */
+  background-color: #565656; /* Add your desired background color */
+  text-align: right; /* Align content to the right */
+}
